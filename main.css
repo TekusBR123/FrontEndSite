@@ -1,0 +1,51 @@
+.container
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: verdana;
+    font-size: 1em;
+}
+.header
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+}
+.logo
+{
+    font-size: 1.25em;
+    padding-right: 300px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.logo a
+{
+    text-decoration: none;
+    color: #000;
+}
+.links
+{
+    padding-top: 12px;
+}
+.links a
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #000;
+}
+.links a:hover
+{
+    border-bottom: 3px solid #000;
+    border-radius: 1px;
+}
