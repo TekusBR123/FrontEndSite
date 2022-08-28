@@ -77,6 +77,7 @@
 }
 .content
 {
+    padding-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -105,19 +106,65 @@
 }
 .social
 {
-    color: #fff;
+    padding-top: 20px;
     text-align: center;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.social a
+.instagram
 {
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.instagram a
+{
     text-decoration: none;
     color: #fff;
+}
+.instagram a i
+{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.twitter
+{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.twitter a
+{
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.twitter a i
+{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.facebook
+{
+    background: #3b5998;
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.facebook a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.facebook a i
+{
+    font-size: 20px;
+    padding-top: 5px;
 }
 .copyright
 {
